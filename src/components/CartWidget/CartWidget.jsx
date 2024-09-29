@@ -1,6 +1,6 @@
 import { CiShoppingCart } from "react-icons/ci";
 
-const CartWidget = () => {
+export const CartWidget = () => {
   return (
     <div
       style={{
@@ -17,4 +17,3 @@ const CartWidget = () => {
   );
 };
 
-export default CartWidget;
