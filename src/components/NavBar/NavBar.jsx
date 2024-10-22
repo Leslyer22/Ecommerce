@@ -48,13 +48,14 @@ export const NavBar = () => {
             </MenuList>
           </Menu>
 
-          <Button
+          {/* <Button
             onClick={() => {
               createProductsFirestore("products");
             }}
           >
             Crear products
-          </Button>
+          </Button> */}
+          
           <Flex alignItems={"center"}>
             <CartWidget />
             <Stack direction={"row"} spacing={7}>
