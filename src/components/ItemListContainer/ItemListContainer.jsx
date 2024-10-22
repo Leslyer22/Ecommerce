@@ -23,7 +23,7 @@ const Item = ({ item }) => {
         bg="white"
         border={"1px"}
         borderColor="black"
-        boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
+        boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 pink")}
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
@@ -43,11 +43,11 @@ const Item = ({ item }) => {
             {item.description}
           </Text>
           <Box
-            bg="gold"
+            bg="pink"
             display={"inline-block"}
             px={2}
             py={1}
-            color="white"
+            color="black"
             mb={2}
           >
             <Text fontSize={"xs"} fontWeight="medium">
@@ -91,7 +91,7 @@ const Item = ({ item }) => {
 
 export const ItemListContainer = ({ products }) => {
   return (
-    <Flex wrap={"wrap"}>
+    <Flex  gap={4} wrap={"wrap"} justifyContent="center" alignItems="center">
       {products.map((item) => {
         return <Item key={item.id} item={item} />;
       })}
