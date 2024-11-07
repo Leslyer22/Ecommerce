@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Category, Home, ItemDetail, NotFound,Checkout } from "../pages";
+import { Category, Home, ItemDetail, NotFound,Checkout,Payment } from "../pages";
 import { NavBar } from "../components";
 
 export const MainRouter = () => {
@@ -13,6 +13,7 @@ export const MainRouter = () => {
         <Route path="/category/:id" element={<Category />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </Router>
   );
