@@ -1,8 +1,22 @@
-# React + Vite
+# 🛍️ Ecommerce React - Tienda de Manga
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desarrollé este proyecto de ecommerce con  como parte de los requisitos del curso de *React* dictado por Coderhouse. El objetivo fue aplicar de forma práctica los conocimientos adquiridos durante la cursada. 
+---
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ [React](https://reactjs.org/) – Biblioteca para construir interfaces de usuario
+- 💅 [Chakra UI](https://chakra-ui.com/) – Biblioteca de componentes  accesibles y estilizados
+- 🔥 [Firebase](https://firebase.google.com/) – Backend (Firestore, Auth, Hosting)
+
+---
+
+## ✅ Funcionalidades principales
+
+- Visualización de productos variados
+- Página de detalle para cada producto
+- Agregar productos al carrito
+- Eliminar productos del carrito
+- Diseño responsive y accesible con Chakra UI
+---
+
