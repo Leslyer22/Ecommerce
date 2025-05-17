@@ -1,6 +1,6 @@
 # 🛍️ Ecommerce React - Tienda de Manga
 
-Desarrollé este proyecto de ecommerce con  como parte de los requisitos del curso de *React* dictado por Coderhouse. El objetivo fue aplicar de forma práctica los conocimientos adquiridos durante la cursada. 
+Desarrollé este proyecto de ecommerce como parte de los requisitos del curso de *React* dictado por Coderhouse. El objetivo fue aplicar de forma práctica los conocimientos adquiridos durante la cursada. 
 ---
 
 ## 🚀 Tecnologías utilizadas
