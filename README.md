@@ -7,7 +7,7 @@ Desarrollé este proyecto de ecommerce como parte de los requisitos del curso de
 
 - ⚛️ [React](https://reactjs.org/) – Biblioteca para construir interfaces de usuario
 - 💅 [Chakra UI](https://chakra-ui.com/) – Biblioteca de componentes  accesibles y estilizados
-- 🔥 [Firebase](https://firebase.google.com/) – Firestore
+- 🔥 [Firebase](https://firebase.google.com/) – Base de Datos.
 
 ---
 
